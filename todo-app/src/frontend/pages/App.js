@@ -55,8 +55,8 @@ function App() {
         <div className="px">{todos.filter(todo => !todo.complete).length} tasks</div>
         <input ref={todoNameRef} className="rounded border-0" type="text"></input>
         <button className="px" onClick={handleAddTodo}>+</button>
-        <button className="px" onClick={handleClearTodos}>Clear Item</button>
-        <button className="px" onClick={handleClearAll}>Clear All</button>
+        <button className="px" onClick={handleClearTodos}>Remove Task(s)</button>
+        <button className="px" onClick={handleClearAll}>Clear All Task(s)</button>
       </div>
 
     </>
